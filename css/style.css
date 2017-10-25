@@ -82,6 +82,9 @@ html{
 	margin-left: 15px;
 	font-size: 16px;
 	letter-spacing: 1px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 .price{
 	height: 96px;
@@ -91,6 +94,7 @@ html{
     color: #e63b0e;
     font-size: 18px;
     line-height: 96px;
+    white-space: nowrap;
 }
 .price i{
 	color: #5fc0cd;
